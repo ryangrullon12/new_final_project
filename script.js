@@ -38,7 +38,3 @@ window.addEventListener('scroll', () => {
 
     lastScrollTop = currentScrollTop <= 0 ? 0 : currentScrollTop; // For Mobile or negative scrolling
 });
-
-html{
-    scroll-behavior: smooth
- }
