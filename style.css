@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+.modal-content {
+    background-color: #088f7f;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    max-width: 300px;
+    border-radius: 8px;
+}
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.modal-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #527f1a;
+    border: none;
+    color: rgb(249, 246, 246);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.modal-container button:hover {
+    background-color: #0056b3;
+}
+.open-modal-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.open-modal-button:hover {
+    background-color: #0056b3;
+}
+div{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb#05563b;
+    color: aliceblue;
+    font-size: 32px;
+    padding: 5px; 
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: #035d49;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.items {
+    width: 60px;
+}
+a {
+    text-decoration: none;
+}
+
+.items:hover {
+    opacity: 0.5;
+    border-color: antiquewhite;
+    border-top: 30px;
+ }
+#History:hover{
+    border: 5px solid rgb(250, 250, 250);
+    margin: 60px;
+    display: flex;
+    justify-content:space-around;    
+}
+ 
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+ 
+ img {
+   width: 450px;
+ }
+
+
+ #one{
+    border: 5px solid rgb(250, 250, 250);
+    margin: 60px;
+    display: flex;
+    justify-content:space-around;
+ }
+
+ h1{
+    color: azure;
+    text-align: center;
+ }
+
+ #Education:hover{
+    border: 5px solid rgb(250, 250, 250);
+    margin: 60px;
+    display: flex;
+    justify-content:space-around;
+    font-size: 36px; /* Larger font size on hover */
+    color: #dbe7eb;
+
+ }
+
+ #two{
+    border: 5px solid rgb(250, 250, 250);
+    margin: 60px;
+    display: flex;
+    justify-content:space-around; 
+ }
+
+ #Business:hover{
+    border: 5px solid rgb(250, 250, 250);
+    margin: 60px;
+    display: flex;
+    justify-content:space-around; 
+    font-size: 36px; /* Larger font size on hover */
+    color: #eceff1;
+ }
+
+ #Awards:hover{
+   border: 5px solid rgb(250, 250, 250);
+   margin: 60px;
+   display: flex;
+   justify-content:space-around; 
+   font-size
+   : 36px; /* Larger font size on hover */
+   color: #eceff1;
+ }
+
+ .content {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
